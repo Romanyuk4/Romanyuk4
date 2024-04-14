@@ -1,0 +1,30 @@
+const isEven = num => num % 2 === 0;
+banana
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true + 2
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const squareRoot = num => Math.sqrt(num);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi - grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+banana
+
+const squareRoot = num => Math.sqrt(num);
+const isEven = num => num % 2 === 0;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+69,28,31,10,57,49,57,59,61,78,68,2,54,74,92,55,31,13,40,99,46,3,29,56,4,15,4,37,46,57,52,76,71,15,26,89,94,22 - 8
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+true * true
+const sum = (a, b) => a + b;
+kiwi - 15,68,61,55,22,97,35,26,74,75,68,92,83,18,82,41,90,13,43,55,41,83,94,42,56,61,77,11,63,3,84,70,35,92,56,48,24,5,42,3,9,90,34,88,97,89,52,8,33,78,21,65,92,56,37,49,72,41,47,65,50,24,20,85,18
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+kiwi
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const findLargestNumber = numbers => Math.max(...numbers);
+const isEven = num => num % 2 === 0;
