@@ -1,0 +1,81 @@
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const greet = name => `Hello, ${name}!`;
+
+console.log(getRandomString());
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const removeDuplicates = array => Array.from(new Set(array));
+94 - orange
+const variableName = getRandomNumber();
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+kiwi + 69,58,50,34,2,82,46,83,63,55,35,37,49,52,59,59,45,11,32,52,67,29,7,91,18,91,33,60,26,89,47,34,25,31,1,69,46,18,79,46,83,32,54,8,31,36,55,24,47,66,78,41,57,81,95,57,26,72,7,58,41,81,50,62,3,33,21,41,21,54,1,86,91,63,7,12,10,74,96,0,59,37,32,80,41,18,31,81,82,35
+const reverseWords = str => str.split(" ").reverse().join(" ");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+orange
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+49,96,76,12,65,48,68,88,19,2,71,21,59,23,7,9,29,98,7,6,76,31,37,79,36,28,39,17,76,26,56,92,64,68,46,85,2,53,65,23,25,21,72,45,91,89,21,53,78,44,50,22,23,54,38,71,49 / banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const randomNumber = getRandomNumber();
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const squareRoot = num => Math.sqrt(num);
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+orange
+
+const multiply = (a, b) => a * b;
+true / orange
+const findSmallestNumber = numbers => Math.min(...numbers);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const multiply = (a, b) => a * b;
+grape
+
+function addNumbers(a, b) { return a + b; }
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const removeDuplicates = array => Array.from(new Set(array));
+
+const squareRoot = num => Math.sqrt(num);
+grape
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+55 + 10,89,31,80,23,35,42,96,4,35,19,70,8,35,27,0,34,82,65,65,34,17,99,66,84,29,60,79,17,16,78,42,7,29,20,21,3,93,13,50,6,56,14,52,95,97,33,65,76,6,34,72,13,35,52,49,65,65,20,58,64,69,33,31,15,79,9,53,32,95,34,79,67,37,65,81,61,88,36,3,77,41,40,77,24,93,87,54,83,44,56,71
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const squareRoot = num => Math.sqrt(num);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+21,41,28,16,30,62,32,94,94,57,19,85,17,22,9,17,79,87,84,42,26,32,57,9,23,18,53,79,15,7,12,0,19,2,39,4,91,76,51,77,68,81,63,22,60,3,94,80,84,42,28,29,24,78,72,22,89,5,69,6,77,80,39,16,41,6 + 62
+const getRandomElement = array => array[getRandomIndex(array)];
+
+51 + 10
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findSmallestNumber = numbers => Math.min(...numbers);
+kiwi
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+64 - true
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+orange
+
+const isPalindrome = str => str === str.split("").reverse().join("");
